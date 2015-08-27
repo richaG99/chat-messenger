@@ -1,0 +1,21 @@
+# Routes
+
+#get user info by passing email id
+GET            /api/messaging/v1/user                              controllers.Users.userByEmailId(email_id: String)
+#get message info by passing message id
+GET            /api/messaging/v1/message                           controllers.Messages.messages(id: Long)
+#create a message
+POST           /api/messaging/v1/message                           controllers.Messages.createMessage
+#get all messages for a user inbox
+GET            /api/messaging/v1/user/inbox/messages/all           controllers.Users.allInboxMessage(email_id: String, isRead:Boolean ?= true)
+#get all unread messages for a user inbox
+GET            /api/messaging/v1/user/inbox/messages/unread        controllers.Users.allInboxMessage(email_id: String, isRead:Boolean ?= false)
+#get all sent messages for a user
+POST           /api/messaging/v1/user/:id/message/send             controllers.Users.sendMessage(id:String, rec_email_id: String)
+
+#update a message as read ( additional)
+PUT          /api/messaging/v1/message/:id                       controllers.Messages.updateMessageAsRead(id: Long)
+
+
+#Used to enable CORS
+OPTIONS        /*url                                               controllers.Application.options(url: String)

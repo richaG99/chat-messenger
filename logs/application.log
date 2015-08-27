@@ -1,0 +1,213 @@
+2015-08-27 19:23:53,260 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9010
+
+2015-08-27 19:23:56 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:23:56 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:23:56 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:23:56 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:23:56 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:23:56 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:23:56 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-0 is starting.
+
+2015-08-27 19:23:57 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:23:57 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-08-27 19:23:58 +0530 - [INFO] - from akka.event.slf4j.Slf4jLogger in play-akka.actor.default-dispatcher-3 
+Slf4jLogger started
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Stoping HikariCP connection pool...
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Shutting down connection pool.
+
+2015-08-27 19:24:59 +0530 - [INFO] - from com.zaxxer.hikari.pool.HikariPool in play-internal-execution-context-1 
+HikariCP pool HikariPool-0 is shutting down.
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:24:59 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:24:59 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:24:59 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-1 is starting.
+
+2015-08-27 19:25:00 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:25:00 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Stoping HikariCP connection pool...
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Shutting down connection pool.
+
+2015-08-27 19:25:50 +0530 - [INFO] - from com.zaxxer.hikari.pool.HikariPool in play-internal-execution-context-1 
+HikariCP pool HikariPool-1 is shutting down.
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:25:50 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:25:50 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-2 is starting.
+
+2015-08-27 19:25:50 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:25:50 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-08-27 19:26:25 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Stoping HikariCP connection pool...
+
+2015-08-27 19:26:25 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Shutting down connection pool.
+
+2015-08-27 19:26:25 +0530 - [INFO] - from com.zaxxer.hikari.pool.HikariPool in play-internal-execution-context-1 
+HikariCP pool HikariPool-2 is shutting down.
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:26:26 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:26:26 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-3 is starting.
+
+2015-08-27 19:26:26 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:26:26 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Stoping HikariCP connection pool...
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Shutting down connection pool.
+
+2015-08-27 19:52:18 +0530 - [INFO] - from com.zaxxer.hikari.pool.HikariPool in play-internal-execution-context-1 
+HikariCP pool HikariPool-3 is shutting down.
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:52:18 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:52:18 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-4 is starting.
+
+2015-08-27 19:52:18 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:52:18 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Stoping HikariCP connection pool...
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Shutting down connection pool.
+
+2015-08-27 19:58:53 +0530 - [INFO] - from com.zaxxer.hikari.pool.HikariPool in play-internal-execution-context-1 
+HikariCP pool HikariPool-4 is shutting down.
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Starting HikariCP connection pool...
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Creating Pool for datasource 'default'
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Loading Hikari configuration from Play configuration.
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Properties: jdbcUrl=jdbc:postgresql://localhost:5432/reporting, registerMbeans=false, driverClassName=org.postgresql.Driver, jdbc4ConnectionTest=true, maxLifetime=1800000, autoCommit=true, leakDetectionThreshold=0, username=amp, maximumPoolSize=30, idleTimeout=600000, minimumIdle=5, readOnly=false, connectionTimeout=30000, password=c************
+
+2015-08-27 19:58:53 +0530 - [WARN] - from com.zaxxer.hikari.HikariConfig in play-internal-execution-context-1 
+The jdbcConnectionTest property is now deprecated, see the documentation for connectionTestQuery
+
+2015-08-27 19:58:53 +0530 - [INFO] - from application in play-internal-execution-context-1 
+Registering driver org.postgresql.Driver
+
+2015-08-27 19:58:53 +0530 - [INFO] - from com.zaxxer.hikari.HikariDataSource in play-internal-execution-context-1 
+HikariCP pool HikariPool-5 is starting.
+
+2015-08-27 19:58:54 +0530 - [INFO] - from application in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/reporting
+
+2015-08-27 19:58:54 +0530 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+

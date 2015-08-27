@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/application-logger.xml,/Users/richa/work/chat_messager/target/scala-2.11/classes/application-logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/application.conf,/Users/richa/work/chat_messager/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/ehcache.xml,/Users/richa/work/chat_messager/target/scala-2.11/classes/ehcache.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/ehcache.xsd,/Users/richa/work/chat_messager/target/scala-2.11/classes/ehcache.xsd)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/messages.en,/Users/richa/work/chat_messager/target/scala-2.11/classes/messages.en)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/play.plugins,/Users/richa/work/chat_messager/target/scala-2.11/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/Users/richa/work/chat_messager/conf/routes,/Users/richa/work/chat_messager/target/scala-2.11/classes/routes)[0m
