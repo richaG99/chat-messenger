@@ -10,12 +10,6 @@ fork in Test := true
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala).configs(IntegrationTest)
   .settings(commonSettings: _*)
-  .settings(inConfig(IntegrationTest)(Defaults.testTasks) : _*)
-  .settings(
-    testOptions in IntegrationTest := Seq(Tests.Filter(integrationTestFilter)),
-    testOptions in Test := Seq(Tests.Filter(unitTestFilter)),
-    javaOptions in Test ++= Seq("-Xms256m", "-Xmx2048m", "-XX:+UseConcMarkSweepGC", "-XX:MaxPermSize=1024M")
-  )
   .settings(
     name := """reports-api""",
     libraryDependencies ++= Seq(
