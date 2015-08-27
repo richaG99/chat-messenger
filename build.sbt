@@ -27,13 +27,6 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala).configs(Integrat
          )
   )
 
-lazy val IntegrationTest = config("integration") extend(Test)
-def integrationTestFilter(name: String): Boolean = name contains "IntegrationTest"
-def unitTestFilter(name: String): Boolean = (name contains "Test") && !integrationTestFilter(name)
-
-mappings in Universal ++= directory("scripts")
-
-sources in (Compile,doc) := Seq.empty
 
 
 
