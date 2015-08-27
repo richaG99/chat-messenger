@@ -11,7 +11,6 @@ fork in Test := true
 lazy val root = (project in file(".")).enablePlugins(PlayScala).configs(IntegrationTest)
   .settings(commonSettings: _*)
   .settings(
-    name := """reports-api""",
     libraryDependencies ++= Seq(
       jdbc,
       "org.postgresql"              % "postgresql"            % "9.3-1102-jdbc41",
