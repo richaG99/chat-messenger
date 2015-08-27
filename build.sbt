@@ -3,11 +3,7 @@ import sbt.Keys._
 
 val commonSettings = Seq(
   version := "1.0-SNAPSHOT",
-  scalaVersion := "2.11.1",
-  resolvers ++= Seq(
-    "clojars" at "http://clojars.org/repo",
-    Resolver.url("Edulify Repository", url("http://edulify.github.io/modules/releases/"))(Resolver.ivyStylePatterns)
-  )
+  scalaVersion := "2.11.1"
 )
 
 fork in Test := true
