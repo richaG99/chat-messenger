@@ -10,3 +10,8 @@ Developer Installation procedure
 4. git clone https://github.com/richaG99/chat-messenger.git
 5. cd chat-messenger
 6. activator compile run
+
+
+
+
+
